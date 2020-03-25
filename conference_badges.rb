@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(names)
   names.each_with_index {|name,index|
-    
+    names[]
   }
   
 end
