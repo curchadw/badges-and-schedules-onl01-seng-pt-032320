@@ -1,6 +1,5 @@
 def badge_maker(names)
-  names.each do |badge| 
-    "Hello, my name is #{badge}."
-  end
- end
+  name = 0
+  while 0 < names.length
+    return "Hello, my name is #{names[name]}"
 end  
