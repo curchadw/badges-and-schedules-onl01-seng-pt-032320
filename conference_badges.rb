@@ -23,6 +23,7 @@ def assign_rooms(names)
 end
 
 def printer
+  loop do
   puts batch_badge_creator(names)
   puts assign_rooms(names)
 end
