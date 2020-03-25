@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(names)
   names.each_with_index {|name,index|
-    "Hello, #{name}! You'll be assigned to room #{index}!"
+    "Hello, my name is #{}!"
   }
   
 end
